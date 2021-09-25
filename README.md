@@ -17,15 +17,6 @@ Using pipenv
 # Quick start
 In your project’s `settings.py`.
 
-``` 
-HEALTH_CHECK_PROVIDERS = {
-    ...
-    'drf_health_check.providers.DBHealthCheckProvider',
-    ...
-}
-```
-
-Add `drf_health_check` to `INSTALLED_APPS` 
 ```
 SPECTACULAR_SETTINGS: Dict[str, Any] = {
     ...
