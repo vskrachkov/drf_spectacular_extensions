@@ -8,6 +8,7 @@ djangorestframework = ">=3"
 drf-spectacular = ">=0.18.2"
 
 [dev-packages]
+flit = "*"
 
 [requires]
 python_version = "3.9"
